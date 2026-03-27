@@ -1,0 +1,233 @@
+2026-03-27 12:04:06,949 [INFO] pipeline – ============================================================
+2026-03-27 12:04:06,949 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 12:04:06,949 [INFO] pipeline –   Mode     : collect
+2026-03-27 12:04:06,949 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 12:04:06,950 [INFO] pipeline –   Started  : 2026-03-27 12:04:06
+2026-03-27 12:04:06,950 [INFO] pipeline – ============================================================
+2026-03-27 12:04:06,951 [INFO] database.manager – Database initialized
+2026-03-27 12:04:08,613 [INFO] googleapiclient.discovery_cache – file_cache is only supported with oauth2client<4.0.0
+2026-03-27 12:04:08,616 [INFO] DataCollectorAgent – [DataCollector] Starting collection for channel: UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 12:04:10,847 [INFO] DataCollectorAgent – Channel: AIM Media House | Uploads playlist: UUh7cV9a7zfACq8f00hJIdSg
+2026-03-27 12:04:37,357 [INFO] DataCollectorAgent – Found 1230 videos total
+2026-03-27 12:04:56,768 [INFO] DataCollectorAgent – Fetching transcripts for 1230 videos (parallel, 8 workers)
+2026-03-27 12:04:58,161 [INFO] DataCollectorAgent – [DataCollector] Done. Total: 1230, With transcripts: 0
+2026-03-27 12:04:58,162 [INFO] pipeline – 
+============================================================
+2026-03-27 12:04:58,162 [INFO] pipeline – Pipeline complete!
+2026-03-27 12:04:58,162 [INFO] pipeline –   Videos         : 1230
+2026-03-27 12:04:58,162 [INFO] pipeline –   With transcripts: 0
+2026-03-27 12:04:58,162 [INFO] pipeline –   Analyzed       : 0
+2026-03-27 12:04:58,162 [INFO] pipeline –   Elapsed        : 0.9 min
+2026-03-27 12:04:58,162 [INFO] pipeline – ============================================================
+2026-03-27 12:04:58,162 [INFO] pipeline – 
+Launch dashboard: python main.py --mode dashboard
+2026-03-27 13:18:23,281 [INFO] pipeline – ============================================================
+2026-03-27 13:18:23,281 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 13:18:23,281 [INFO] pipeline –   Mode     : collect
+2026-03-27 13:18:23,281 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:18:23,281 [INFO] pipeline –   Started  : 2026-03-27 13:18:23
+2026-03-27 13:18:23,282 [INFO] pipeline – ============================================================
+2026-03-27 13:18:23,282 [INFO] database.manager – Database initialized
+2026-03-27 13:18:25,635 [INFO] googleapiclient.discovery_cache – file_cache is only supported with oauth2client<4.0.0
+2026-03-27 13:18:25,638 [INFO] DataCollectorAgent – [DataCollector] Starting collection for channel: UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:18:25,871 [INFO] DataCollectorAgent – Channel: AIM Media House | Uploads playlist: UUh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:18:38,608 [INFO] DataCollectorAgent – Found 1230 videos total
+2026-03-27 13:18:50,213 [INFO] DataCollectorAgent – Fetching transcripts for 1230 videos (parallel, 8 workers)
+2026-03-27 13:22:28,490 [INFO] DataCollectorAgent – [DataCollector] Done. Total: 1230, With transcripts: 307
+2026-03-27 13:22:28,492 [INFO] pipeline – 
+============================================================
+2026-03-27 13:22:28,492 [INFO] pipeline – Pipeline complete!
+2026-03-27 13:22:28,492 [INFO] pipeline –   Videos         : 1230
+2026-03-27 13:22:28,492 [INFO] pipeline –   With transcripts: 307
+2026-03-27 13:22:28,492 [INFO] pipeline –   Analyzed       : 0
+2026-03-27 13:22:28,492 [INFO] pipeline –   Elapsed        : 4.1 min
+2026-03-27 13:22:28,492 [INFO] pipeline – ============================================================
+2026-03-27 13:22:28,492 [INFO] pipeline – 
+Launch dashboard: python main.py --mode dashboard
+2026-03-27 13:28:46,490 [INFO] pipeline – ============================================================
+2026-03-27 13:28:46,491 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 13:28:46,491 [INFO] pipeline –   Mode     : analyze
+2026-03-27 13:28:46,491 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:28:46,491 [INFO] pipeline –   Started  : 2026-03-27 13:28:46
+2026-03-27 13:28:46,491 [INFO] pipeline – ============================================================
+2026-03-27 13:28:46,494 [INFO] database.manager – Database initialized
+2026-03-27 13:28:48,032 [INFO] AnalysisAgent – [AnalysisAgent] Starting analysis
+2026-03-27 13:28:48,103 [INFO] AnalysisAgent – Videos to analyze: 307
+2026-03-27 13:28:48,282 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:29:13,848 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:29:13,862 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:29:44,227 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:29:44,240 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:30:17,387 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:30:17,402 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:30:50,176 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:30:50,193 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:31:16,985 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:31:17,003 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:31:59,311 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:31:59,347 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:32:02,089 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-03-27 13:32:02,091 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 5s
+2026-03-27 13:32:07,096 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:32:44,385 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:32:44,405 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:33:27,152 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:33:27,170 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:34:16,723 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:34:16,742 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:34:53,384 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:34:53,409 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:35:28,801 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:35:28,819 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:36:13,669 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:36:13,691 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:36:43,817 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:36:43,835 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:37:19,291 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:37:19,312 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:37:59,283 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:37:59,299 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:38:31,691 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:38:31,715 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:39:18,213 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:39:18,234 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:39:54,533 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:39:54,550 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:40:32,934 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:40:32,961 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:41:07,855 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:41:07,885 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:41:44,712 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:41:44,725 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:41:45,352 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:41:45,353 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.922468202s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}. Retrying in 5s
+2026-03-27 13:41:50,358 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:41:50,875 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:41:50,876 [WARNING] AnalysisAgent – LLM call failed (attempt 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.373469118s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}. Retrying in 10s
+2026-03-27 13:42:00,877 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:42:01,511 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:42:01,513 [WARNING] AnalysisAgent – LLM call failed (attempt 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 58.763323313s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}. Retrying in 20s
+2026-03-27 13:42:21,515 [WARNING] AnalysisAgent – Bad response for batch of 5 videos
+2026-03-27 13:42:21,521 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:42:22,164 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:42:22,165 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.076174893s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}. Retrying in 5s
+2026-03-27 13:42:27,167 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:42:27,835 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:42:27,838 [WARNING] AnalysisAgent – LLM call failed (attempt 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.408323288s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}. Retrying in 10s
+2026-03-27 13:42:37,843 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:42:38,354 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:42:38,355 [WARNING] AnalysisAgent – LLM call failed (attempt 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 21.918625865s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}. Retrying in 20s
+2026-03-27 13:42:58,358 [WARNING] AnalysisAgent – Bad response for batch of 5 videos
+2026-03-27 13:42:58,360 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:42:58,850 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:42:58,851 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 1.401997748s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}. Retrying in 5s
+2026-03-27 13:43:03,852 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:43:04,347 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:43:04,347 [WARNING] AnalysisAgent – LLM call failed (attempt 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.927233421s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}. Retrying in 10s
+2026-03-27 13:43:14,350 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:43:14,831 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:43:14,833 [WARNING] AnalysisAgent – LLM call failed (attempt 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 45.440867989s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}. Retrying in 20s
+2026-03-27 13:43:34,838 [WARNING] AnalysisAgent – Bad response for batch of 5 videos
+2026-03-27 13:43:34,840 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:43:35,287 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:43:35,290 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 24.975708935s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}. Retrying in 5s
+2026-03-27 13:43:40,295 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:43:40,836 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:43:40,837 [WARNING] AnalysisAgent – LLM call failed (attempt 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.475273812s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}. Retrying in 10s
+2026-03-27 13:43:50,854 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:43:51,667 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:43:51,785 [WARNING] AnalysisAgent – LLM call failed (attempt 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 8.639601922s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}. Retrying in 20s
+2026-03-27 13:44:11,793 [WARNING] AnalysisAgent – Bad response for batch of 5 videos
+2026-03-27 13:44:11,797 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:44:12,273 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:44:12,276 [WARNING] AnalysisAgent – LLM call failed (attempt 1): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.00659432s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}. Retrying in 5s
+2026-03-27 13:44:17,278 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:44:17,752 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:44:17,752 [WARNING] AnalysisAgent – LLM call failed (attempt 2): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.502737036s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}. Retrying in 10s
+2026-03-27 13:44:27,757 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:44:28,244 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27 13:44:28,245 [WARNING] AnalysisAgent – LLM call failed (attempt 3): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.032160712s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}. Retrying in 20s
+2026-03-27 13:44:45,068 [INFO] pipeline – ============================================================
+2026-03-27 13:44:45,068 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 13:44:45,069 [INFO] pipeline –   Mode     : analyze
+2026-03-27 13:44:45,069 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:44:45,069 [INFO] pipeline –   Started  : 2026-03-27 13:44:45
+2026-03-27 13:44:45,069 [INFO] pipeline – ============================================================
+2026-03-27 13:44:45,070 [INFO] database.manager – Database initialized
+2026-03-27 13:44:46,458 [INFO] AnalysisAgent – [AnalysisAgent] Starting analysis
+2026-03-27 13:44:46,502 [INFO] AnalysisAgent – Videos to analyze: 202
+2026-03-27 13:44:46,664 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:44:59,228 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:44:59,259 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:47:09,508 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:47:09,532 [WARNING] utils.helpers – Could not parse JSON from LLM response
+2026-03-27 13:47:09,532 [WARNING] AnalysisAgent – Bad response for batch of 10 videos
+2026-03-27 13:47:09,534 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:47:20,512 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:47:20,541 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:47:34,820 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:47:34,845 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:47:48,334 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:47:48,360 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:48:04,002 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:48:04,031 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:59:33,408 [INFO] pipeline – ============================================================
+2026-03-27 13:59:33,409 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 13:59:33,410 [INFO] pipeline –   Mode     : report
+2026-03-27 13:59:33,410 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 13:59:33,410 [INFO] pipeline –   Started  : 2026-03-27 13:59:33
+2026-03-27 13:59:33,410 [INFO] pipeline – ============================================================
+2026-03-27 13:59:33,412 [INFO] database.manager – Database initialized
+2026-03-27 13:59:36,325 [INFO] ReportGeneratorAgent – [ReportGenerator] Generating yearly summaries
+2026-03-27 13:59:36,385 [INFO] ReportGeneratorAgent – No transcripts for 2023, skipping
+2026-03-27 13:59:36,405 [INFO] ReportGeneratorAgent – No transcripts for 2024, skipping
+2026-03-27 13:59:36,693 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:59:45,901 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:59:45,910 [INFO] ReportGeneratorAgent –   Saved summary for 2025 (1189 words)
+2026-03-27 13:59:45,935 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 13:59:55,067 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 13:59:55,090 [INFO] ReportGeneratorAgent –   Saved summary for 2026 (1368 words)
+2026-03-27 13:59:55,149 [INFO] ReportGeneratorAgent – HTML report written to /Users/animesh/aim-media-intelligence/data/outputs/reports/annual_report.html
+2026-03-27 13:59:55,776 [INFO] ReportGeneratorAgent – PDF export skipped (weasyprint system deps missing). HTML report is ready.
+2026-03-27 13:59:55,776 [INFO] ReportGeneratorAgent – [ReportGenerator] Reports saved to /Users/animesh/aim-media-intelligence/data/outputs/reports
+2026-03-27 13:59:55,782 [INFO] pipeline – 
+============================================================
+2026-03-27 13:59:55,782 [INFO] pipeline – Pipeline complete!
+2026-03-27 13:59:55,783 [INFO] pipeline –   Videos         : 1230
+2026-03-27 13:59:55,783 [INFO] pipeline –   With transcripts: 307
+2026-03-27 13:59:55,783 [INFO] pipeline –   Analyzed       : 155
+2026-03-27 13:59:55,783 [INFO] pipeline –   Elapsed        : 0.4 min
+2026-03-27 13:59:55,783 [INFO] pipeline – ============================================================
+2026-03-27 13:59:55,784 [INFO] pipeline – 
+Launch dashboard: python main.py --mode dashboard
+2026-03-27 14:03:40,681 [INFO] pipeline – ============================================================
+2026-03-27 14:03:40,686 [INFO] pipeline –   AIM Media House – Intelligence Pipeline
+2026-03-27 14:03:40,686 [INFO] pipeline –   Mode     : insights
+2026-03-27 14:03:40,687 [INFO] pipeline –   Channel  : UCh7cV9a7zfACq8f00hJIdSg
+2026-03-27 14:03:40,687 [INFO] pipeline –   Started  : 2026-03-27 14:03:40
+2026-03-27 14:03:40,687 [INFO] pipeline – ============================================================
+2026-03-27 14:03:40,688 [INFO] database.manager – Database initialized
+2026-03-27 14:03:42,043 [INFO] InsightsAgent – [InsightsAgent] Generating cross-video insights
+2026-03-27 14:03:42,203 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 14:03:46,456 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 14:03:46,460 [INFO] InsightsAgent –   Viral analysis for 2025: The 'winning formula' for AIM Media House in 2025 appears to be a blend of highl
+2026-03-27 14:03:46,463 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 14:03:53,822 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 14:03:53,825 [INFO] InsightsAgent –   Viral analysis for 2026: Focus on Generative AI (GenAI) and its practical applications, particularly in t
+2026-03-27 14:03:53,829 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 14:04:00,555 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 14:04:00,557 [INFO] InsightsAgent –   Content gap identified: Given the dominance of GenAI content, focusing on practical MLOps for deploying 
+2026-03-27 14:04:00,577 [INFO] google_genai.models – AFC is enabled with max remote calls: 10.
+2026-03-27 14:04:02,920 [INFO] httpx – HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-27 14:04:02,932 [INFO] InsightsAgent –   Evolution: The channel experienced a significant pivot in 2025, shifting from broad industry coverage to a stro
+2026-03-27 14:04:02,933 [INFO] InsightsAgent – [InsightsAgent] Insights saved to /Users/animesh/aim-media-intelligence/data/outputs/reports/insights.json
+2026-03-27 14:04:02,937 [INFO] pipeline – 
+============================================================
+2026-03-27 14:04:02,937 [INFO] pipeline – Pipeline complete!
+2026-03-27 14:04:02,937 [INFO] pipeline –   Videos         : 1230
+2026-03-27 14:04:02,937 [INFO] pipeline –   With transcripts: 307
+2026-03-27 14:04:02,937 [INFO] pipeline –   Analyzed       : 155
+2026-03-27 14:04:02,937 [INFO] pipeline –   Elapsed        : 0.4 min
+2026-03-27 14:04:02,937 [INFO] pipeline – ============================================================
+2026-03-27 14:04:02,937 [INFO] pipeline – 
+Launch dashboard: python main.py --mode dashboard

@@ -1,0 +1,70 @@
+{
+  "viral_patterns": {
+    "2025": {
+      "winning_formula": "The 'winning formula' for AIM Media House in 2025 appears to be a blend of highly relevant and timely topics, particularly those related to AI and its impact on careers and the future of work. Leveraging prominent figures in these fields, such as AI founders, CTOs, or industry leaders, and presenting this content with a predominantly positive sentiment is key. Additionally, focusing on career and education aspects within the AI and Data Science domains seems to resonate strongly with viewers.",
+      "top_topic_entity_combo": "AI and Career & Education. The video '750% AI Engineer Salary Gap! Is Talent Really Location Based' stands out with significantly higher views, indicating a strong audience interest in the intersection of AI (specifically AI Engineers) and career opportunities, salary expectations, and geographical factors.",
+      "best_sentiment_tone": "Positive",
+      "predicted_viral_topic": "A video exploring the practical applications and career pathways of a specific, highly discussed AI tool (like a new iteration of ChatGPT or a similar large language model) or a deep dive into the future of AI in a specific high-demand industry (e.g., AI in Finance or AI in Healthcare) with a positive outlook on job creation or efficiency gains. It should ideally feature a recognizable expert or thought leader in the AI space.",
+      "insights": [
+        "The top-performing video significantly outperforms others, suggesting a need to identify and replicate the specific appeal of that content. The topic of 'AI Engineer Salary Gap' is a clear indicator of audience interest in career and financial aspects of AI.",
+        "While AI is mentioned as a top topic once, the leading video's focus on 'AI Engineer Salary Gap' points to a more specific and impactful sub-topic within AI that is driving viewership.",
+        "The limited number of videos in the top 20 and the data provided for entities and topics suggest that the channel may not have a consistently diverse content strategy, or the provided data is not exhaustive enough to draw definitive conclusions across all videos. The current data suggests a strong leaning towards AI and career-related content.",
+        "The predominance of positive sentiment in high-view videos, coupled with a few critical ones, suggests that while positive framing is generally preferred, content that critically analyzes important issues (like the salary gap) can also perform well if it's highly relevant and well-presented.",
+        "The presence of 'AIM Media House' as a mentioned entity in a high-view video suggests that content directly related to the channel's brand or events could also be a driving factor."
+      ]
+    },
+    "2026": {
+      "winning_formula": "Focus on Generative AI (GenAI) and its practical applications, particularly in the context of startups and large corporations, delivered with a positive sentiment. Highlight specific AI models (like GPT-4o vs Gemini) and their impact on industries and careers.",
+      "top_topic_entity_combo": "Generative AI (GenAI) + Startups",
+      "best_sentiment_tone": "positive",
+      "predicted_viral_topic": "The Future of GenAI in Healthcare: Breakthroughs and Startup Opportunities",
+      "insights": [
+        "The overwhelming dominance of AI and its sub-fields like GenAI in high-view videos suggests a strong audience interest. Targeting these areas is crucial.",
+        "Videos focusing on 'Startups' combined with AI topics (especially GenAI) seem to be a strong driver of views, as evidenced by the top video.",
+        "A positive sentiment consistently outperforms neutral and critical tones, indicating that viewers prefer optimistic and forward-looking content related to AI."
+      ]
+    }
+  },
+  "content_gaps": {
+    "underrepresented_topics": [
+      "MLOps",
+      "AI Agents",
+      "AI Ethics & Safety",
+      "AI for Social Good"
+    ],
+    "missing_key_entities": [
+      "DeepMind (company)",
+      "Anthropic (company)",
+      "Hugging Face (company)",
+      "Raghav Mathur (person - if relevant to Indian AI)",
+      "Indian AI researchers/academics"
+    ],
+    "emerging_opportunities": [
+      "AI in specific Indian industries (e.g., Agriculture, Healthcare, Finance)",
+      "Real-world AI case studies from Indian companies",
+      "The impact of AI on the Indian job market",
+      "AI startups beyond Generative AI"
+    ],
+    "recommendation": "Given the dominance of GenAI content, focusing on practical MLOps for deploying and managing these models in the Indian context would be highly valuable. This bridges the gap between theoretical advancements and real-world application, a crucial area for businesses in India looking to adopt AI."
+  },
+  "channel_evolution": {
+    "evolution_narrative": "The channel experienced a significant pivot in 2025, shifting from broad industry coverage to a strong focus on Generative AI and its applications, alongside Data Science and Cloud. This trend solidified in 2026 with an increased emphasis on advanced AI concepts like AI Agents and Computer Vision, reflecting a deeper dive into emerging AI capabilities.",
+    "inflection_years": [
+      {
+        "year": 2025,
+        "reason": "Introduction of specific AI-related topics (GenAI, Data Science, Cloud) and entities (AI, LLMs, GenAI, ChatGPT) and a surge in positive sentiment, indicating a clear shift towards advanced AI and its impact."
+      }
+    ],
+    "rising_entities": [
+      "GenAI",
+      "LLMs",
+      "AI Agents",
+      "Computer Vision"
+    ],
+    "declining_entities": [
+      "Google",
+      "ChatGPT"
+    ],
+    "current_trajectory": "The channel is increasingly focused on cutting-edge AI technologies, particularly Generative AI and its advanced applications, with a corresponding shift in topic distribution and entity prominence. The sentiment analysis suggests a generally optimistic outlook towards these emerging areas, although with a slight decrease in overall positive sentiment in 2026 compared to 2025, potentially indicating a more nuanced or critical examination of the technology's implementation and implications."
+  }
+}

@@ -1,0 +1,15 @@
+google-api-python-client>=2.100.0
+youtube-transcript-api>=0.6.2
+google-genai>=1.0.0
+pandas>=2.1.0
+numpy>=1.24.0
+streamlit>=1.28.0
+plotly>=5.17.0
+networkx>=3.2
+pyvis>=0.3.2
+python-dotenv>=1.0.0
+requests>=2.31.0
+jinja2>=3.1.2
+tqdm>=4.65.0
+isodate>=0.6.1
+# weasyprint>=60.0  # optional PDF export — requires system deps (brew install pango)
